@@ -17,13 +17,17 @@ The #100DaysOfCode challenge is a commitment to coding for at least one hour eve
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 22: [02/02/2024]
+### Day 22: [03/02/2024]
 
-**Today's Progress**: Guess what? Today, I solved a coding problem about how functions work with variables - you know, when you give them directly (pass by value) or just a way to find them (pass by reference)? I did this on Coding Ninjas and it was awesome! 🤓👩‍💻.
+**Today's Progress**:Exciting day! I tackled some intricate pattern questions from Striver's A to Z DSA sheet on Coding Ninjas. It was quite the brain workout but very rewarding. 🧠💪 Plus, I dived into a web development project and made a music player app. 🎶💻
 
-**Thoughts**: Though it was a basic problem but it helped me learn the concept and make a good hand on it.
+**Thoughts**: From todays learning i made a good hand on loops which will help me in upcoming topics.
 
-**Link to Solution**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day22/Day22_FA-1%20ECE.cpp.
+**Link to Solution**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day23/.
+
+#Projects
+
+- **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day23/Freecodecamp].
 
 ## How to Use This Repository
 
