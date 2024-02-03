@@ -22,17 +22,9 @@ Here's where I'll keep a daily log of my progress, including what I learned, wha
 **Today's Progress**: Guess what? Today, I solved a coding problem about how functions work with variables - you know, when you give them directly (pass by value) or just a way to find them (pass by reference)? I did this on Coding Ninjas and it was awesome! 🤓👩‍💻.
 
 **Thoughts**: Though it was a basic problem but it helped me learn the concept and make a good hand on it.
-```
-**Link(s) to work**: If applicable, include links to any projects or code you worked on today.
 
-## Projects
+**Link to Solution**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day22/Day22_FA-1%20ECE.cpp.
 
-This section will be updated with links to projects developed during this 100-day journey. Each project will include a short description and technologies used.
-
-- **Project Name 1**: Description - [Link to Repository](#)
-- **Project Name 2**: Description - [Link to Repository](#)
-
-```
 ## How to Use This Repository
 
 Feel free to explore this repository to see my progress and the projects I'm working on. Each directory within the repository is organized by project or day, containing all the relevant code and resources. If you're undertaking a similar journey, I hope my experience can provide you with ideas, inspiration, or guidance.
