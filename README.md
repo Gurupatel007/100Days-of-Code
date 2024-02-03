@@ -27,7 +27,7 @@ Here's where I'll keep a daily log of my progress, including what I learned, wha
 
 #Projects
 
-- **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day23/Freecodecamp].
+- **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://codepen.io/Guru-the-lessful/full/eYXrMLw].
 
 ## How to Use This Repository
 
