@@ -17,7 +17,7 @@ The #100DaysOfCode challenge is a commitment to coding for at least one hour eve
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 22: [01/02/2024]
+### Day 22: [02/02/2024]
 
 **Today's Progress**: Guess what? Today, I solved a coding problem about how functions work with variables - you know, when you give them directly (pass by value) or just a way to find them (pass by reference)? I did this on Coding Ninjas and it was awesome! 🤓👩‍💻.
 
