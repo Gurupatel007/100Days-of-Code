@@ -1,1 +1,1 @@
-pattern*.exe
+pattern*.exe,input.txt , output.txt
