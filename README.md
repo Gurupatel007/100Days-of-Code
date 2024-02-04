@@ -17,15 +17,15 @@ The #100DaysOfCode challenge is a commitment to coding for at least one hour eve
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 22: [03/02/2024]
+### Day 24: [04/02/2024]
 
-**Today's Progress**:Exciting day! I tackled some intricate pattern questions from Striver's A to Z DSA sheet on Coding Ninjas. It was quite the brain workout but very rewarding. 🧠💪 Plus, I dived into a web development project and made a music player app. 🎶💻
+**Today's Progress**:Exciting day! I tackled some intricate pattern questions from Striver's A to Z DSA sheet on Coding Ninjas. It was quite the brain workout but very rewarding. 🧠💪 Plus, I pushed my efforts towards fullstack web devlopment . 🎶💻
 
-**Thoughts**: From todays learning i made a good hand on loops which will help me in upcoming topics.
+**Thoughts**: From todays learning i made a good hand on advanced patterns questions which will help me in upcoming topics.
 
-**Link to Solution**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day23/.
+**Link to Solution**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day24/.
 
-#Projects
+## Projects
 
 - **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://codepen.io/Guru-the-lessful/full/eYXrMLw].
 
