@@ -1,3 +1,19 @@
+## Log
+
+Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
+
+### Day 25: [05/02/2024]
+
+**Today's Progress**:Today i have learned about STL(Standard Template Libraries) which makes the work easy for us as for a particular operation like to find maximum or minimum it's already present in the library which we can find by using max() or min() , And also i have made progress in my web dev path by creating a palindrome checker. 💻
+
+**Thoughts**: Learning about different libraries can help in easily solve the data structures questions.
+
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day25/.
+
+## Projects
+
+- **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://codepen.io/Guru-the-lessful/full/eYXrMLw].
+
 # 100 Days Of Code
 
 Welcome to my journey through the **#100DaysOfCode** challenge! This repository is a living document of my progress, insights, and the projects I'll be tackling over the next 100 days. My goal is to improve my coding skills by dedicating at least an hour every day to coding, learning new technologies, and working on projects.
@@ -12,22 +28,6 @@ The #100DaysOfCode challenge is a commitment to coding for at least one hour eve
 - **Learn New Technologies**: Dedicate time to learning new languages, frameworks, and tools that are relevant to my interests and career goals.
 - **Build Projects**: Apply what I learn by building projects. This includes small utility tools, contributing to open source, or even developing full-fledged applications.
 - **Consistency**: Cultivate the habit of coding daily, which is crucial for long-term success in the tech industry.
-
-## Log
-
-Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
-
-### Day 24: [04/02/2024]
-
-**Today's Progress**:Exciting day! I tackled some intricate pattern questions from Striver's A to Z DSA sheet on Coding Ninjas. It was quite the brain workout but very rewarding. 🧠💪 Plus, I pushed my efforts towards fullstack web devlopment . 🎶💻
-
-**Thoughts**: From todays learning i made a good hand on advanced patterns questions which will help me in upcoming topics.
-
-**Link to Solution**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day24/.
-
-## Projects
-
-- **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://codepen.io/Guru-the-lessful/full/eYXrMLw].
 
 ## How to Use This Repository
 
