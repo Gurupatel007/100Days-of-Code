@@ -2,13 +2,13 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 25: [05/02/2024]
+### Day 26: [06/02/2024]
 
-**Today's Progress**:Today i have learned about STL(Standard Template Libraries) which makes the work easy for us as for a particular operation like to find maximum or minimum it's already present in the library which we can find by using max() or min() , And also i have made progress in my web dev path by creating a palindrome checker. 💻
+**Today's Progress**:Today's coding journey took me deep into the heart of C++'s Standard Template Library (STL), where I explored some incredibly powerful libraries: stacks, queues, deques, and priority queues.I also tackled a problem on CodeForces using my newfound knowledge📚👨‍💻.
 
-**Thoughts**: Learning about different libraries can help in easily solve the data structures questions.
+**Thoughts**: Diving into these libraries has not only expanded my understanding of data structures but also sharpened my problem-solving skills..
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day25/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day26/.
 
 ## Projects
 
