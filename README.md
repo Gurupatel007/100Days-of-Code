@@ -2,13 +2,23 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 26: [06/02/2024]
+### Day 27: [07/02/2024]
 
-**Today's Progress**:Today's coding journey took me deep into the heart of C++'s Standard Template Library (STL), where I explored some incredibly powerful libraries: stacks, queues, deques, and priority queues.I also tackled a problem on CodeForces using my newfound knowledge📚👨‍💻.
+**Today's Progress**:Hey all! Just wanted to share that I solved 7 coding problems today - 2 on LeetCode and 5 on Coding Ninjas. 🚀📚👨‍💻.
 
-**Thoughts**: Diving into these libraries has not only expanded my understanding of data structures but also sharpened my problem-solving skills..
+**Thoughts**: It felt awesome to figure them out and learn something new. It’s a small step, but every bit counts, right? 🌟.
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day26/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day27/.
+
+**link to todays question**: 
+```
+1. https://www.codingninjas.com/studio/problems/check-armstrong_589?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+2. https://www.codingninjas.com/studio/problems/palindrome-number_624662?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+3. https://www.codingninjas.com/studio/problems/number-of-digits_9173?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
+4. https://www.codingninjas.com/studio/problems/count-digits_8416387?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+5. https://leetcode.com/problems/reverse-integer/
+6. https://leetcode.com/problems/palindrome-number/
+```
 
 ## Projects
 
