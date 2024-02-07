@@ -11,14 +11,14 @@ Here's where I'll keep a daily log of my progress, including what I learned, wha
 **Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day27/.
 
 **link to todays question**: 
-```
+
 1. https://www.codingninjas.com/studio/problems/check-armstrong_589?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 2. https://www.codingninjas.com/studio/problems/palindrome-number_624662?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 3. https://www.codingninjas.com/studio/problems/number-of-digits_9173?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
 4. https://www.codingninjas.com/studio/problems/count-digits_8416387?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 5. https://leetcode.com/problems/reverse-integer/
 6. https://leetcode.com/problems/palindrome-number/
-```
+
 
 ## Projects
 
