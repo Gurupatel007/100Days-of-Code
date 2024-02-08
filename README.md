@@ -10,7 +10,7 @@ Here's where I'll keep a daily log of my progress, including what I learned, wha
 
 **Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day28/.
 
-**link to todays question**: 
+### Todays question : 
 
 1. https://www.codingninjas.com/studio/problems/check-prime_624934?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
 2. https://www.codingninjas.com/studio/problems/sum-of-all-divisors_8360720?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
