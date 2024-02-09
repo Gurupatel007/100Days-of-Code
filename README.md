@@ -2,23 +2,19 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 28: [08/02/2024]
+### Day 29: [09/02/2024]
 
-**Today's Progress**:Hey all! Just wanted to share that ,Today I solved 6 coding problems on Coding Ninjas all with their different approaches and in both languages java and c++. 🚀📚👨‍💻.
+**Today's Progress**:Today I Dived into Recursion and Learned what is recursion and how it works and some terms linked with it (Recursion Tree , Stack Overflow state , infinite loop problem) and Also solved 3 problems based on recursion on Coding Ninjas. 🚀📚👨‍💻.
 
-**Thoughts**: Atfer solving todays problems i understand how can i slight change in code can optimize the performance. 🌟.
+**Thoughts**: Recursion is a one of crazy thing but if not correctly implemented it can cause memory problems 🌟.
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day28/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day29/.
 
 ### Todays question : 
 
-1. https://www.codingninjas.com/studio/problems/check-prime_624934?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
-2. https://www.codingninjas.com/studio/problems/sum-of-all-divisors_8360720?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
-3. https://www.codingninjas.com/studio/problems/hcf-and-lcm_840448?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
-4. https://www.codingninjas.com/studio/problems/check-prime_624674?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
-5. https://www.codingninjas.com/studio/problems/print-all-divisors-of-a-number_1164188?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
-6. https://www.codingninjas.com/studio/problems/gcd_6557?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
-
+1. https://www.codingninjas.com/studio/problems/n-to-1-without-loop_8357243?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+2. https://www.codingninjas.com/studio/problems/-print-n-times_8380707?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+3. https://www.codingninjas.com/studio/problems/print-1-to-n_628290?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 ## Projects
 
