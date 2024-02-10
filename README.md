@@ -2,19 +2,22 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 29: [09/02/2024]
+### Day 30: [10/02/2024]
 
-**Today's Progress**:Today I Dived into Recursion and Learned what is recursion and how it works and some terms linked with it (Recursion Tree , Stack Overflow state , infinite loop problem) and Also solved 3 problems based on recursion on Coding Ninjas. 🚀📚👨‍💻.
+**Today's Progress**:Today I Dived into Concept of Backtracking and how can we achieve it using recursion, Also I solved Total 5 problems based on recursion and backtracking on Coding Ninjas. 🚀📚👨‍💻.
 
-**Thoughts**: Recursion is a one of crazy thing but if not correctly implemented it can cause memory problems 🌟.
+<!-- **Thoughts**: Recursion is a one of crazy thing but if not correctly implemented it can cause memory problems 🌟. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day29/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day30/.
 
 ### Todays question : 
 
-1. https://www.codingninjas.com/studio/problems/n-to-1-without-loop_8357243?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
-2. https://www.codingninjas.com/studio/problems/-print-n-times_8380707?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
-3. https://www.codingninjas.com/studio/problems/print-1-to-n_628290?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+First two are the problems that i solved yesterday but today i have solved using backtracking. And remaining are the problems that are based on functional and recursive approaches.                      
+
+1. https://www.codingninjas.com/studio/problems/print-1-to-n_628290?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+2. https://www.codingninjas.com/studio/problems/n-to-1-without-loop_8357243?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+3. https://www.codingninjas.com/studio/problems/sum-of-first-n-numbers_8876068?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+4. https://www.codingninjas.com/studio/problems/factorial-numbers-not-greater-than-n_8365435?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 ## Projects
 
