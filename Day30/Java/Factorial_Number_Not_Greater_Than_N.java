@@ -18,4 +18,11 @@ public class Factorial_Number_Not_Greater_Than_N {
         }
         return ls;
     }
+    public static void main(String[] args) {
+        long n = 7;
+        List<Long> ans = factorialNumbers(n);
+        for(int i=0;i<ans.size();i++){
+            System.out.print(ans.get(i)+" ");
+        }
+    }
 }
