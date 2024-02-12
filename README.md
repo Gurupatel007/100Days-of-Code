@@ -2,21 +2,21 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 31: [11/02/2024]
+### Day 32: [12/02/2024]
 
-**Today's Progress**:Today also i have solved some of questions related to recursion like of reverse an Array using 1Pointer and 2pointer and also Another question that check if the string is palindrome or not using recursion.🚀📚👨‍💻.
+**Today's Progress**:Moving Forward with this journey today i solved 3 questions based on recursion, 2 from Leetcode and 1 from Coding ninjas.🚀📚👨‍💻.
 
 <!-- **Thoughts**: Recursion is a one of crazy thing but if not correctly implemented it can cause memory problems 🌟. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day31/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day32/.
 
-### Todays question : 
+### Todays questions : 
 
-First two are the problems that i solved yesterday but today i have solved using backtracking. And remaining are the problems that are based on functional and recursive approaches.                      
+1. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/).
 
-1. Check Palindrome (recursive) : https://www.codingninjas.com/studio/problems/check-palindrome-recursive_624386?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
+2. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/).
 
-2. Reverse an Array : https://www.codingninjas.com/studio/problems/reverse-an-array_8365444?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
+3. [ Print Fibonacci Series](https://www.codingninjas.com/studio/problems/print-fibonacci-series_7421617?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM)
 
 ## Projects
 
