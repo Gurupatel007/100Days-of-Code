@@ -2,21 +2,18 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 32: [12/02/2024]
+### Day 34: [14/02/2024]
 
-**Today's Progress**:Moving Forward with this journey today i solved 3 questions based on recursion, 2 from Leetcode and 1 from Coding ninjas.🚀📚👨‍💻.
+**Today's Progress**: Today i have learned about hashing and how can we do it using an array, Also i have solved one question regarding it on Coding ninjas and also i have joined a contest in Codechef although my performance was not that good but as we know practice makes perfect hence i will practice more and make myself capable.🚀📚👨‍💻.
 
 <!-- **Thoughts**: Recursion is a one of crazy thing but if not correctly implemented it can cause memory problems 🌟. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day32/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day34/.
 
 ### Todays questions : 
 
-1. [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/).
+1. [Count Frequency in a range](https://www.codingninjas.com/studio/problems/count-frequency-in-a-range_8365446?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
-2. [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/).
-
-3. [ Print Fibonacci Series](https://www.codingninjas.com/studio/problems/print-fibonacci-series_7421617?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM)
 
 ## Projects
 
