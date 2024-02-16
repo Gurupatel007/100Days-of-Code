@@ -2,17 +2,21 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 34: [14/02/2024]
+### Day 36: [16/02/2024]
 
-**Today's Progress**: Today i have learned about hashing and how can we do it using an array, Also i have solved one question regarding it on Coding ninjas and also i have joined a contest in Codechef although my performance was not that good but as we know practice makes perfect hence i will practice more and make myself capable.🚀📚👨‍💻.
+**Today's Progress**: 🎉 Day 36/100 of #100DaysOfCode: Just conquered Basic Hashing! 🚀
+
+Dove into Striver's A2Z DSA Sheet (Step 1.6) today and wow, what a ride! Hashing = magic key for speedy data search & storage. 🗝️✨
+
+Every question tackled felt like unlocking a new level in my coding journey. It's not just about faster code, but smarter solutions. 🧠💡
 
 <!-- **Thoughts**: Recursion is a one of crazy thing but if not correctly implemented it can cause memory problems 🌟. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day34/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day36/.
 
 ### Todays questions : 
 
-1. [Count Frequency in a range](https://www.codingninjas.com/studio/problems/count-frequency-in-a-range_8365446?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+1. [Highest / Lowest Frequency Elements](https://www.codingninjas.com/studio/problems/k-most-occurrent-numbers_625382?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM).
 
 
 ## Projects
