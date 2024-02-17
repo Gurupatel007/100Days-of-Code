@@ -2,21 +2,21 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 36: [16/02/2024]
+### Day 37: [17/02/2024]
 
-**Today's Progress**: 🎉 Day 36/100 of #100DaysOfCode: Just conquered Basic Hashing! 🚀
+**Today's Progress**: Going through this lovely journey today i learned about the three sorting techniques 1.Selection sort 2. Bubble sort 3. Insertion sort. I also solved some questions on these sorting techniques.
 
-Dove into Striver's A2Z DSA Sheet (Step 1.6) today and wow, what a ride! Hashing = magic key for speedy data search & storage. 🗝️✨
+**Thoughts**: I am feeling good after solving these questions and learning these sorting techniques. I am also feeling confident about my coding skills.
 
-Every question tackled felt like unlocking a new level in my coding journey. It's not just about faster code, but smarter solutions. 🧠💡
-
-<!-- **Thoughts**: Recursion is a one of crazy thing but if not correctly implemented it can cause memory problems 🌟. -->
-
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day36/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day37/.
 
 ### Todays questions : 
 
-1. [Highest / Lowest Frequency Elements](https://www.codingninjas.com/studio/problems/k-most-occurrent-numbers_625382?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM).
+1. [Selection Sort](https://www.codingninjas.com/studio/problems/selection-sort_624469?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+
+2. [Bubble Sort](https://www.codingninjas.com/studio/problems/bubble-sort_624380?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+
+3. [Insertion Sort](https://www.codingninjas.com/studio/problems/insertion-sort_3155179?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM&customSource=studio_nav&count=25&page=1&search=&sort_entity=order&sort_order=ASC).
 
 
 ## Projects
