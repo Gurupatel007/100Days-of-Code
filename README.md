@@ -2,21 +2,22 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 37: [17/02/2024]
+### Day 38: [18/02/2024]
 
-**Today's Progress**: Going through this lovely journey today i learned about the three sorting techniques 1.Selection sort 2. Bubble sort 3. Insertion sort. I also solved some questions on these sorting techniques.
+**Today's Progress**: Today's focus was on mastering 𝐌𝐞𝐫𝐠𝐞 𝐒𝐨𝐫𝐭, diving into the divide and conquer technique. Practiced with question on Coding Ninjas, and the sense of accomplishment is real! 🚀
 
-**Thoughts**: I am feeling good after solving these questions and learning these sorting techniques. I am also feeling confident about my coding skills.
+**Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency.
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day37/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day38/.
 
 ### Todays questions : 
 
-1. [Selection Sort](https://www.codingninjas.com/studio/problems/selection-sort_624469?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+1. [Merge Sort](https://www.codingninjas.com/studio/problems/merge-sort_920442?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_Arrayproblems).
 
+<!-- 
 2. [Bubble Sort](https://www.codingninjas.com/studio/problems/bubble-sort_624380?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
-3. [Insertion Sort](https://www.codingninjas.com/studio/problems/insertion-sort_3155179?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM&customSource=studio_nav&count=25&page=1&search=&sort_entity=order&sort_order=ASC).
+3. [Insertion Sort](https://www.codingninjas.com/studio/problems/insertion-sort_3155179?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM&customSource=studio_nav&count=25&page=1&search=&sort_entity=order&sort_order=ASC). -->
 
 
 ## Projects
