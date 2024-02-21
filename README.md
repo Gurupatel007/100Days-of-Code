@@ -2,22 +2,24 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 40: [20/02/2024]
+### Day 41: [21/02/2024]
 
-**Today's Progress**: Today I learned Bubble Sort and tried Insertion Sort with recursion. 🤓 Also, solved related exercises on Coding Ninjas. It’s amazing to see how these sorting methods work!  🚀
+**Today's Progress**: Today, following Striver's A2Z DSA sheet, I ventured into the realm of Arrays. 🚀 Dived deep into two intriguing problems on Coding Ninjas and tackled them with not one, not two, but three approaches: 1. Brute Force, 2. Better, 3. Optimal. Each approach taught me more about efficiency and strategy in coding. 🧠💡
+
+But why stop at coding? Following my passion for design, I took a creative detour and designed a replica of x.com (formerly Twitter) on Figma. 🎨🖌️ It's a blend of my vision with the essence of x.com. 𝑪𝒉𝒆𝒄𝒌 𝒊𝒕 𝒐𝒖𝒕 𝒉𝒆𝒓𝒆: https://www.figma.com/file/0Us4zcvz1j75X2axsyVjeL/ChatX?type=design&node-id=0-1&mode=design&t=r1zQJrEj4vLnfPDP-0 🚀
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day40/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day41/.
 
 ### Todays questions : 
 
-1. [Quick  Sort](https://www.codingninjas.com/studio/problems/quick-sort_5844?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+<!-- 1. [Quick  Sort](https://www.codingninjas.com/studio/problems/quick-sort_5844?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf). -->
 
 
-<!-- 1. [Bubble Sort](https://www.codingninjas.com/studio/problems/bubble-sort_624380?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+1. [Second Largest Number](https://www.codingninjas.com/studio/problems/ninja-and-the-second-order-elements_6581960?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
-2. [Insertion Sort](https://www.codingninjas.com/studio/problems/insertion-sort_3155179?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM&customSource=studio_nav&count=25&page=1&search=&sort_entity=order&sort_order=ASC). -->
+2. [Largest Element in the Array](https://www.codingninjas.com/studio/problems/largest-element-in-the-array-largest-element-in-the-array_5026279?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
 
 ## Projects
