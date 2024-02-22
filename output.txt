@@ -1,2 +1,1 @@
-The second Largest element: 20
-The second Smallest element: 10
+7
