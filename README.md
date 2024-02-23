@@ -2,21 +2,21 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 42: [22/02/2024]
+### Day 43: [23/02/2024]
 
-**Today's Progress**: Today was all about conquering arrays! 🚀 Tackled three challenging questions on Coding Ninjas and each problem pushed my understanding and skills further. 🧠💪
+**Today's Progress**: Today was a day of significant progress and learning! 🌟 I took on a medium-level question on LeetCode and an easy-level challenge on Coding Ninjas, tackling them with both brute force and optimal solutions. 🚀🧠
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day42/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day43/.
 
 ### Todays questions : 
 
-1. [Check Sorted Array](https://www.codingninjas.com/studio/problems/ninja-and-the-sorted-check_6581957?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+1. [Rotate array](https://www.codingninjas.com/studio/problems/rotate-array_1230543?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM).
 
-2. [Remove Duplicates from Sorted Array](https://www.codingninjas.com/studio/problems/remove-duplicates-from-sorted-array_1102307?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM).
+2. [Rotate Array](https://leetcode.com/problems/rotate-array/).
 
-3. [Left Rotate an Array by One](https://www.codingninjas.com/studio/problems/left-rotate-an-array-by-one_5026278?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM).
+<!-- 3. [Left Rotate an Array by One](https://www.codingninjas.com/studio/problems/left-rotate-an-array-by-one_5026278?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM). -->
 
 
 ## Projects
