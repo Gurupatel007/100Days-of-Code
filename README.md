@@ -4,8 +4,7 @@ Here's where I'll keep a daily log of my progress, including what I learned, wha
 
 ### Day 43: [23/02/2024]
 
-**Today's Progress**: 
-Today's feats:
+**Today's Progress**:
 
 ✅Merge 2 Sorted Arrays
 
