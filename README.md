@@ -2,7 +2,7 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 43: [23/02/2024]
+### Day 44: [24/02/2024]
 
 **Today's Progress**:
 
@@ -22,7 +22,7 @@ Here's where I'll keep a daily log of my progress, including what I learned, wha
 
 1. [Move Zero's to End](https://www.codingninjas.com/studio/problems/ninja-and-the-zero-s_6581958?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
-1.1 [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+ 1.1 [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 
 2. [Linear Search](https://www.codingninjas.com/studio/problems/linear-search_6922070?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
