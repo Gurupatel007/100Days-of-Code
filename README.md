@@ -4,19 +4,30 @@ Here's where I'll keep a daily log of my progress, including what I learned, wha
 
 ### Day 43: [23/02/2024]
 
-**Today's Progress**: Today was a day of significant progress and learning! 🌟 I took on a medium-level question on LeetCode and an easy-level challenge on Coding Ninjas, tackling them with both brute force and optimal solutions. 🚀🧠
+**Today's Progress**: 
+Today's feats:
+
+✅Merge 2 Sorted Arrays
+
+✅Linear Search🔍 
+
+✅Move Zeroes to End➡️ 
+
+🛠️ Tackled with both Brute Force & Optimal strategies. 🧠
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day43/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day44/.
 
 ### Todays questions : 
 
-1. [Rotate array](https://www.codingninjas.com/studio/problems/rotate-array_1230543?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM).
+1. [Move Zero's to End](https://www.codingninjas.com/studio/problems/ninja-and-the-zero-s_6581958?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
-2. [Rotate Array](https://leetcode.com/problems/rotate-array/).
+1.1 [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 
-<!-- 3. [Left Rotate an Array by One](https://www.codingninjas.com/studio/problems/left-rotate-an-array-by-one_5026278?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM). -->
+2. [Linear Search](https://www.codingninjas.com/studio/problems/linear-search_6922070?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+
+3. [Merge 2 Sorted Array](https://www.codingninjas.com/studio/problems/sorted-array_6613259?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
 
 ## Projects
