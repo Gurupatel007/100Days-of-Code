@@ -2,31 +2,43 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 44: [24/02/2024]
+### Day 45: [25/02/2024]
 
 **Today's Progress**:
 
-✅Merge 2 Sorted Arrays
+✅ Concatenation of Array ✨
 
-✅Linear Search🔍 
+✅ Running Sum of 1d Array 🏃‍♂️
 
-✅Move Zeroes to End➡️ 
+✅ Richest Customer Wealth 💰
 
-🛠️ Tackled with both Brute Force & Optimal strategies. 🧠
+✅ Shuffle the Array 🔀
+
+✅ Kids With the Greatest Number of Candies 🍭
+
+✅ Number of Good Pairs 👫
+
+✅ Intersection Of Two Sorted Arrays 🤝
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day44/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day45/.
 
 ### Todays questions : 
 
-1. [Move Zero's to End](https://www.codingninjas.com/studio/problems/ninja-and-the-zero-s_6581958?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+1. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/).
 
- 1.1 [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+2. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)
 
-2. [Linear Search](https://www.codingninjas.com/studio/problems/linear-search_6922070?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+3. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/).
 
-3. [Merge 2 Sorted Array](https://www.codingninjas.com/studio/problems/sorted-array_6613259?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
+4. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/).
+
+5. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
+
+6. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)
+
+7. [Intersection Of Two Sorted Arrays](https://www.codingninjas.com/studio/problems/intersection-of-2-arrays_1082149?interviewProblemRedirection=true)
 
 
 ## Projects
