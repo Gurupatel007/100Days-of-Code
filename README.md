@@ -2,43 +2,52 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 45: [25/02/2024]
+### Day 46: [26/02/2024]
 
 **Today's Progress**:
 
-✅ Concatenation of Array ✨
+Hey everyone! Just wanted to share how my day went with my coding challenges. It's been super productive and I've learned a lot. Here's what I managed to do today:
 
-✅ Running Sum of 1d Array 🏃‍♂️
+- Solved a bunch of problems on HackerRank:
 
-✅ Richest Customer Wealth 💰
+ ✅ Time Conversion
+ ✅ Birthday Cake Candles
+ ✅ Mini-Max Sum
+ ✅ Staircase
+ ✅ Plus Minus
+ ✅ Diagonal Difference
 
-✅ Shuffle the Array 🔀
+And guess what? I got a certification from HackerRank for problem-solving (basic)! 🎉 Plus, I even got a 2-star badge on HackerRank, which feels pretty awesome.
 
-✅ Kids With the Greatest Number of Candies 🍭
-
-✅ Number of Good Pairs 👫
-
-✅ Intersection Of Two Sorted Arrays 🤝
+Didn't stop there, though. I also solved the "Missing Number" problem on LeetCode. Every little bit adds up, right?
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day45/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day46/.
 
 ### Todays questions : 
 
-1. [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/).
+1. [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem).
 
-2. [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/description/)
+2. [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
 
-3. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/description/).
+3. [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem).
 
-4. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/).
+4. [Staircase](https://www.hackerrank.com/challenges/staircase/problem).
 
-5. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
+5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
-6. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)
+6. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference)
 
-7. [Intersection Of Two Sorted Arrays](https://www.codingninjas.com/studio/problems/intersection-of-2-arrays_1082149?interviewProblemRedirection=true)
+<!-- 7. [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum)
+
+8. [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets)
+
+9. [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum)
+
+10. [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) -->
+
+7. [Missing Number](https://leetcode.com/problems/missing-number/submissions/1186710654/)
 
 
 ## Projects
