@@ -2,42 +2,32 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 46: [26/02/2024]
+### Day 47: [27/02/2024]
 
 **Today's Progress**:
 
-Hey everyone! Just wanted to share how my day went with my coding challenges. It's been super productive and I've learned a lot. Here's what I managed to do today:
+Today, I delved into two fascinating problems on LeetCode, honing my skills with different approaches. 🛠️
 
-- Solved a bunch of problems on HackerRank:
-
- ✅ Time Conversion
- ✅ Birthday Cake Candles
- ✅ Mini-Max Sum
- ✅ Staircase
- ✅ Plus Minus
- ✅ Diagonal Difference
-
-And guess what? I got a certification from HackerRank for problem-solving (basic)! 🎉 Plus, I even got a 2-star badge on HackerRank, which feels pretty awesome.
-
-Didn't stop there, though. I also solved the "Missing Number" problem on LeetCode. Every little bit adds up, right?
+✅ Single Number
+✅ Max Consecutive Ones
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day46/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day47/.
 
-### Todays questions : 
+### Todays questions :
 
-1. [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem).
+1. [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/).
 
-2. [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
+2. [Single Number](https://leetcode.com/problems/single-number/description/)
 
-3. [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem).
+<!-- 3. [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem).
 
 4. [Staircase](https://www.hackerrank.com/challenges/staircase/problem).
 
 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
-6. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference)
+6. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) -->
 
 <!-- 7. [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum)
 
@@ -47,7 +37,7 @@ Didn't stop there, though. I also solved the "Missing Number" problem on LeetCod
 
 10. [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) -->
 
-7. [Missing Number](https://leetcode.com/problems/missing-number/submissions/1186710654/)
+<!-- 7. [Missing Number](https://leetcode.com/problems/missing-number/submissions/1186710654/) -->
 
 
 ## Projects
