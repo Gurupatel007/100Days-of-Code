@@ -2,30 +2,39 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 47: [27/02/2024]
+### Day 48: [28/02/2024]
 
 **Today's Progress**:
 
-Today, I delved into two fascinating problems on LeetCode, honing my skills with different approaches. 🛠️
+Hey everyone! Just wanted to share what I've been up to today. I worked on a couple of coding problems on Coding Ninjas and LeetCode and learned a lot. Here's a quick rundown:
 
-✅ Single Number
-✅ Max Consecutive Ones
+On Coding Ninjas, I solved:
+
+✅Longest Subarray with given Sum K (for positive numbers)
+✅Longest Subarray with sum K (for positive and negative numbers)
+
+And on LeetCode, I tackled:
+
+✅Creating a Target Array in the Given Order
+✅Finding How Many Numbers Are Smaller Than the Current Number
+
+Plus, I got a cool badge on Coding Ninjas called "𝐀𝐜𝐡𝐢𝐞𝐯𝐞𝐫 𝐢𝐧 𝐇𝐚𝐬𝐡𝐭𝐚𝐛𝐥𝐞"! It feels great to be recognized for the effort.
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day47/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day48/.
 
 ### Todays questions :
 
-1. [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/).
+1. [Longest_Subarray_with_sum_K_Positive](https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_6682399?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf).
 
-2. [Single Number](https://leetcode.com/problems/single-number/description/)
+2. [Longest Subarray with sum K | [Postives and Negatives]](https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_5713505?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf)
 
-<!-- 3. [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem).
+3. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/description/).
 
-4. [Staircase](https://www.hackerrank.com/challenges/staircase/problem).
+4. [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/).
 
-5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
+<!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
 6. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) -->
 
