@@ -2,36 +2,34 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 50: [01/03/2024]
+### Day 51: [02/03/2024]
 
 **Today's Progress**:
 
-Today isn't just another day in my coding journey; it's a major milestone! 🎯 I've officially hit the halfway mark of the 100 Days of Code Challenge, and what a ride it's been so far! To make this day even more memorable, I dove into two intriguing problems on both LeetCode and Coding Ninjas. These problems tested my skills and pushed me to apply both fundamental and advanced coding strategies.
+Crushed 4 Arrays problems on LeetCode today:
 
-✅Two Sum (easy)
-✅Sort Colors (Medium)
-
-Reflecting on the past 50 days, I've experienced a tremendous amount of growth, not just in my coding abilities but also in my problem-solving skills and perseverance. Each challenge has taught me something new, and every problem solved has added a piece to the puzzle of my development journey.
-
-But today is not only about looking back; it's also about looking forward. With 50 more days to go, I'm excited about the challenges ahead and the opportunities to learn and grow further. I'm committed to continuing this journey with the same zeal and enthusiasm that I started with.
+- Cells with Odd Values in a Matrix ✅
+- Matrix Diagonal Sum ✅
+- Transpose Matrix ✅
+- Add to Array-Form of Integer ✅
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day50/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day51/.
 
 ### Todays questions :
 
-1. [Two Sum](https://leetcode.com/problems/two-sum/description/).
+1. [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/).
 
-2. [Sort Colors](https://leetcode.com/problems/sort-colors/)
-<!-- 
-1. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/).
+2. [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
 
-2. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/). -->
+3. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/).
+
+4. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/).
 
 <!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
-6. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) -->
+1. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) -->
 
 <!-- 7. [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum)
 
