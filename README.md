@@ -2,16 +2,14 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 51: [02/03/2024]
+### Day 52: [03/03/2024]
 
 **Today's Progress**:
 
-Crushed 4 Arrays problems on LeetCode today:
+Today, I dove into two fascinating problems on LeetCode:
 
-- Cells with Odd Values in a Matrix ✅
-- Matrix Diagonal Sum ✅
-- Transpose Matrix ✅
-- Add to Array-Form of Integer ✅
+- Find N Unique Integers Sum up to Zero ✅
+- Determine Whether Matrix Can Be Obtained By Rotation ✅
 
 <!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
 
