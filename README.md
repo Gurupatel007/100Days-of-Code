@@ -2,28 +2,29 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 52: [03/03/2024]
+### Day 53: [04/03/2024]
 
 **Today's Progress**:
 
-Today, I dove into two fascinating problems on LeetCode:
+Today's coding marathon led me to solve three more engaging problems on #leetcode , each pushing my boundaries and enhancing my problem-solving toolkit. Here's what I tackled:
 
-- Find N Unique Integers Sum up to Zero ✅
-- Determine Whether Matrix Can Be Obtained By Rotation ✅
+✅ Lucky Number In a Matrix
+✅ Maximum Subarray
+✅ Reshape the Matrix
 
-<!-- **Thoughts**: Merge Sort is not just about sorting; it's about strategizing and efficiency. -->
+**Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations.
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day51/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day53/.
 
 ### Todays questions :
 
-1. [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/).
+1. [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/description/).
 
-2. [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
+2. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
-<!-- 3. [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/).
+3. [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/).
 
-4. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/). -->
+<!-- 4. [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/). -->
 
 <!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
