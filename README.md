@@ -2,74 +2,71 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 54: [05/03/2024]
+### Day 55: [06/03/2024]
 
 **Today's Progress**:
 
-Today was a day full of challenges and learning on #leetcode . I'm excited to share that I've solved four questions, diving into array manipulation and optimization strategies. Here's the rundown of today's achievements:
+Problem Statement:
+Generate a spiral matrix of size n x n filled with elements from 1 to n^2 in spiral order.
 
-- ✅ Plus One (Easy)
-- ✅ Remove Duplicates from Sorted Array (Easy)
-- ✅ Minimum Cost to Move Chips to The Same Position (Easy)
-- ✅ Spiral Matrix (Medium)
+Approach Explanation:
 
-𝑨𝒑𝒑𝒓𝒐𝒂𝒄𝒉𝒆𝒔 :
+Initialize Boundaries and Matrix:
 
-#### 𝐏𝐥𝐮𝐬 𝐎𝐧𝐞
+- Create an n x n matrix to hold the numbers.
+- Set initial boundaries: left = 0, right = n - 1, up = 0, down = n - 1.
+- Initialize a counter starting from 1 (to keep track of numbers to be filled in).
 
-- Maano tum ek number ke array ke saath kaam kar rahe ho, jaise ki ek badi sankhya ko digit-by-digit store kiya gaya hai. Last digit mein ek jodne ka kaam hai.
+Filling the Matrix in Spiral Order:
+The process is divided into four main steps that are repeated until the matrix is completely filled:
 
-- Last digit se shuru karte hue, agar carry aata hai, toh usse agle digit mein add karte jao.
+- Move Right: Fill the top row from left to right.
+- Move Down: Fill the rightmost column from top to bottom.
+- Move Left: If possible, fill the bottom row from right to left.
+- Move Up: If possible, fill the leftmost column from bottom to top.
+After completing each step, adjust the boundaries accordingly.
 
-- Agar end tak carry bacha rahe, toh usse naye array mein add kar do.
+Visualizing the Process:
+Assume n = 3, the process to fill the matrix will look like this:
 
-Ant mein, array ko reverse karke final answer taiyar karte hain.
+#### Step 1: Move Right and Move Down
 
-#### 𝐑𝐞𝐦𝐨𝐯𝐞 𝐃𝐮𝐩𝐥𝐢𝐜𝐚𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐒𝐨𝐫𝐭𝐞𝐝 𝐀𝐫𝐫𝐚𝐲
+1 2 3
+0 0 4
+0 0 5
 
-- Maan lo ek playlist hai jisme gaane genre ke hisaab se sorted hain, aur tumhe har genre ka sirf ek gaana chahiye.
+After filling the top row, we move right to left (up++), then fill the rightmost column, moving top to bottom (right--).
 
-- Do pointers rakhoge, i jo tumhari "saaf" playlist ko point karega (array ke start mein) aur j jo puri list scan karega.
+#### Step 2: Move Left and Move Up
 
-- Jab j aage badhta hai, aur jab bhi ek "naya genre" milta hai (ek alag value), usse apni playlist mein i position par add karte ho aur i ko aage badha dete ho.
+1 2 3
+0 0 4
+7 6 5
 
-- Is tarike se, array ko sirf unique genres tak "compress" kar dete ho, wahi original array space use karte hue.
+Next, fill the bottom row, moving right to left (since up <= down), then (down--).
+Lastly, fill the leftmost column, moving bottom to top (left++).
 
-#### 𝐌𝐢𝐧𝐢𝐦𝐮𝐦 𝐂𝐨𝐬𝐭 𝐭𝐨 𝐌𝐨𝐯𝐞 𝐂𝐡𝐢𝐩𝐬 𝐭𝐨 𝐓𝐡𝐞 𝐒𝐚𝐦𝐞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧
+#### Final Matrix
 
-- Ek board game ki kalpana karo jisme positions par chips hain, aur adjacent position par jaane ka 1 coin kharcha hota hai, par even number of steps uchal kar jaana free hai.
+1 2 3
+8 9 4
+7 6 5
 
-- Chips ko do groups mein baanto based on unki positions: even positions par aur odd positions par.
-
-- Choonki even steps uchalna free hai, toh calculate karte ho ki sab chips ko ya toh ek odd ya ek even position par le jaane ka cost kya hoga, jo basically hai kitne chips ko 1-step move karna padega.
-
-- Phir, sasta option choose karte ho, ya toh sab chips ko odd ya even positions par le jaakar minimum cost mein.
-
-#### 𝐒𝐩𝐢𝐫𝐚𝐥 𝐌𝐚𝐭𝐫𝐢𝐱
-
-- Maan lo tum ek maze ko represent karte matrix mein ek path bana rahe ho, aur tumhe bahar se andar tak spiral pattern mein chalna hai.
-
-Boundary set karte ho (up, down, left, right) jo current layer ko represent karta hai jise tum navigate kar rahe ho.
-
-- Left se right tak up boundary ke along traverse karte ho, phir right boundary ke down move karte ho. Next, down boundary ke along left traverse karte ho, aur finally left boundary ke up move karte ho.
-
-- Har outer loop complete karne ke baad, boundaries ko inward adjust karte ho (jaise, up++, down--, left++, right--) taaki agle inner layer tak move kar sako.
-
-- Navigate karte waqt, values ko ek ArrayList mein collect karte ho, effectively matrix layers ko ek linear sequence mein convert karte hue spiral path follow karte hue. Ye approach ek pyaaz ko layer by layer unpeel karne jaisa hai, core tak pahunchne tak.
+The spiral matrix is now complete. This showcases the pattern followed in a 3 x 3 matrix. The same logic applies regardless of the size of n.
 
 <!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day54/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day55/.
 
 ### Todays questions
 
-1. [Plus One](https://leetcode.com/problems/plus-one/).
+<!-- 1. [Plus One](https://leetcode.com/problems/plus-one/).
 
 2. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
-3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/).
+3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/). -->
 
-4. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/).
+1. [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/).
 
 <!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
