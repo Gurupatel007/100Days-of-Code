@@ -31,16 +31,16 @@ Assume n = 3, the process to fill the matrix will look like this:
 
 #### Step 1: Move Right and Move Down
 
-1 2 3\n
-0 0 4\n
+1 2 3<br/>
+0 0 4<br/>
 0 0 5
 
 After filling the top row, we move right to left (up++), then fill the rightmost column, moving top to bottom (right--).
 
 #### Step 2: Move Left and Move Up
 
-1 2 3\n
-0 0 4\n
+1 2 3<br/>
+0 0 4<br/>
 7 6 5
 
 Next, fill the bottom row, moving right to left (since up <= down), then (down--).
@@ -48,8 +48,8 @@ Lastly, fill the leftmost column, moving bottom to top (left++).
 
 #### Final Matrix
 
-1 2 3\n
-8 9 4\n
+1 2 3<br/>
+8 9 4<br/>
 7 6 5
 
 The spiral matrix is now complete. This showcases the pattern followed in a 3 x 3 matrix. The same logic applies regardless of the size of n.
