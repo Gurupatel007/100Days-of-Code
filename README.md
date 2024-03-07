@@ -2,61 +2,38 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 55: [06/03/2024]
+### Day 56: [07/03/2024]
 
 **Today's Progress**:
 
-Problem Statement:
-Generate a spiral matrix of size n x n filled with elements from 1 to n^2 in spiral order.
+#### Majority Element
 
-Approach Explanation:
+Given an array nums of size n, return the majority element.
 
-Initialize Boundaries and Matrix:
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
 
-- Create an n x n matrix to hold the numbers.
-- Set initial boundaries: left = 0, right = n - 1, up = 0, down = n - 1.
-- Initialize a counter starting from 1 (to keep track of numbers to be filled in).
+Example 1:
 
-Filling the Matrix in Spiral Order:
-The process is divided into four main steps that are repeated until the matrix is completely filled:
+Input: nums = [3,2,3]
+Output: 3
+Example 2:
 
-- Move Right: Fill the top row from left to right.
-- Move Down: Fill the rightmost column from top to bottom.
-- Move Left: If possible, fill the bottom row from right to left.
-- Move Up: If possible, fill the leftmost column from bottom to top.
-After completing each step, adjust the boundaries accordingly.
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
 
-Visualizing the Process:
-Assume n = 3, the process to fill the matrix will look like this:
+𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡 & 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧:
 
-#### Step 1: Move Right and Move Down
+- My approach to solving this problem involved using a HashMap to keep track of each element's frequency in the array.
 
-1 2 3<br/>
-0 0 4<br/>
-0 0 5
+- For every element in the array, I checked if it is already in the HashMap. If it is, I updated its count; otherwise, I added it to the map with a count of 1.
 
-After filling the top row, we move right to left (up++), then fill the rightmost column, moving top to bottom (right--).
+- After populating the HashMap, I iterated through the map to find the element with a count greater than ⌊n/2⌋. This element is our majority element.
 
-#### Step 2: Move Left and Move Up
-
-1 2 3<br/>
-0 0 4<br/>
-7 6 5
-
-Next, fill the bottom row, moving right to left (since up <= down), then (down--).
-Lastly, fill the leftmost column, moving bottom to top (left++).
-
-#### Final Matrix
-
-1 2 3<br/>
-8 9 4<br/>
-7 6 5
-
-The spiral matrix is now complete. This showcases the pattern followed in a 3 x 3 matrix. The same logic applies regardless of the size of n.
+- This method is straightforward and effective, providing a clear solution by leveraging the power of HashMaps to count and track the occurrences of each number in the array.
 
 <!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day55/.
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day56/
 
 ### Todays questions
 
@@ -66,7 +43,7 @@ The spiral matrix is now complete. This showcases the pattern followed in a 3 x 
 
 3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/). -->
 
-1. [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/).
+1. [Majority Element](https://leetcode.com/problems/majority-element/description/).
 
 <!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
