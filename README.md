@@ -2,38 +2,37 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 56: [07/03/2024]
+### Day 57: [08/03/2024]
 
 **Today's Progress**:
 
-#### Majority Element
+#### Find the Duplicate Number
 
-Given an array nums of size n, return the majority element.
+Hello, fellow coders! Today, amidst the whirlwind of my exam preparations, I took on a medium-level challenge on #LeetCode titled "Find the Duplicate Number." It was a rewarding detour into the realm of array manipulation and applying efficient algorithms. Let's dive into the approach and solution!
 
-The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+🛠️ Problem & Approach:
 
-Example 1:
+Objective: Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive), find the duplicate number. The catch is doing so without extra space for another array and in linear runtime complexity.
 
-Input: nums = [3,2,3]
-Output: 3
-Example 2:
+Solution with HashSet: My strategy involved using a HashSet to track the numbers as I iterate through the array. The core idea is straightforward:
 
-Input: nums = [2,2,1,1,1,2,2]
-Output: 2
+Iterate over the array.
 
-𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡 & 𝐒𝐨𝐥𝐮𝐭𝐢𝐨𝐧:
+- For each element, check if it's already in the HashSet. If yes, that's our duplicate. Return it immediately.
 
-- My approach to solving this problem involved using a HashMap to keep track of each element's frequency in the array.
+- If no, add the element to the HashSet.
 
-- For every element in the array, I checked if it is already in the HashMap. If it is, I updated its count; otherwise, I added it to the map with a count of 1.
+- If no duplicates are found (though the problem statement guarantees at least one duplicate exists), return 0.
 
-- After populating the HashMap, I iterated through the map to find the element with a count greater than ⌊n/2⌋. This element is our majority element.
+🧩 𝐓𝐢𝐦𝐞 & 𝐒𝐩𝐚𝐜𝐞 𝐂𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲:
 
-- This method is straightforward and effective, providing a clear solution by leveraging the power of HashMaps to count and track the occurrences of each number in the array.
+𝐄𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐜𝐲: The use of HashSet allows for constant time complexity (O(1)) for both insertion and lookup operations. This ensures that our overall approach remains O(n), adhering to the problem's constraints regarding runtime complexity.
+
+𝐒𝐩𝐚𝐜𝐞 𝐂𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲: Although the problem statement asks for solving the problem without extra space, for learning purposes, this approach showcases the trade-off between time and space complexity. Using a HashSet requires O(n) space.
 
 <!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day56/
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day57/
 
 ### Todays questions
 
@@ -43,7 +42,7 @@ Output: 2
 
 3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/). -->
 
-1. [Majority Element](https://leetcode.com/problems/majority-element/description/).
+1. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/).
 
 <!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
