@@ -47,8 +47,7 @@ Key Technique: The magic of XOR (^) operation in solving this puzzle is truly fa
 2. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/). -->
-
-4. [Find the Difference](https://leetcode.com/problems/find-the-difference/description/).
+1. [Find the Difference](https://leetcode.com/problems/find-the-difference/description/).
 
 <!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
