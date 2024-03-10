@@ -34,28 +34,28 @@ Starting Point:
 No transactions have occurred.
 minPrice = ∞, maxProfit = 0
 
-Day 1: Price = 7
-minPrice = min(∞, 7) = 7
+Day 1: Price = 7<br>
+minPrice = min(∞, 7) = 7<br>
 maxProfit = max(0, 7-7) = 0
 
-Day 2: Price = 1
-minPrice = min(7, 1) = 1
+Day 2: Price = 1<br>
+minPrice = min(7, 1) = 1<br>
 maxProfit = max(0, 1-1) = 0
 
-Day 3: Price = 5
-minPrice = min(1, 5) = 1
+Day 3: Price = 5<br>
+minPrice = min(1, 5) = 1<br>
 maxProfit = max(0, 5-1) = 4
 
-Day 4: Price = 3
-minPrice = min(1, 3) = 1
+Day 4: Price = 3<br>
+minPrice = min(1, 3) = 1<br>
 maxProfit = max(4, 3-1) = 4
 
-Day 5: Price = 6
-minPrice = min(1, 6) = 1
+Day 5: Price = 6<br>
+minPrice = min(1, 6) = 1<br>
 maxProfit = max(4, 6-1) = 5
 
-Day 6: Price = 4
-minPrice = min(1, 4) = 1
+Day 6: Price = 4<br>
+minPrice = min(1, 4) = 1<br>
 maxProfit = max(5, 4-1) = 5
 
 Conclusion: The best time to have bought the stock was on Day 2 at a price of 1, and the best time to have sold it was on Day 5 at a price of 6, making a profit of 5.
