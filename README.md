@@ -28,7 +28,7 @@ Best Time to Buy and Sell Stock✅
 
 6. In the end, after you've checked all the days, you know the best time to have bought and sold the toy to make the most money.
 
-#### Let's visualize the approach with a sample array of prices: [7, 1, 5, 3, 6, 4]
+### Let's visualize the approach with a sample array of prices: [7, 1, 5, 3, 6, 4]
 
 Starting Point:
 No transactions have occurred.
