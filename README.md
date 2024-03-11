@@ -2,75 +2,77 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 59: [10/03/2024]
+### Day 60: [11/03/2024]
 
 **Today's Progress**:
 
-#### Best Time to Buy and Sell Stock
+## 1. Remove Element
 
-Welcome to Day59 🙏
+The goal of this problem is to remove all instances of a specific value `val` from an array `nums`, in-place, and return the new length of the array after removal.
 
-Today i have solved a one of the mostly asked question in companies (𝐁𝐞𝐬𝐭 𝐓𝐢𝐦𝐞 𝐭𝐨 𝐁𝐮𝐲 𝐚𝐧𝐝 𝐒𝐞𝐥𝐥 𝐒𝐭𝐨𝐜𝐤) on #leetcode.
+### Approach:
 
-Best Time to Buy and Sell Stock✅
+- Initialize a pointer `valid_size` to keep track of the length of the array after removals.
+- Iterate through each element of the array `nums`.
+- If the current element is not equal to `val`, copy it to the `nums[valid_size]` and increment `valid_size`.
+- Return `valid_size` as the new length of the array.
 
-𝑴𝒚 𝒂𝒑𝒑𝒓𝒐𝒂𝒄𝒉 𝒊𝒏 𝒂 𝒃𝒊𝒕 𝒅𝒊𝒇𝒇𝒆𝒓𝒆𝒏𝒕 𝒘𝒂𝒚
+### Code:
 
-1. Imagine you're keeping an eye on the prices of a toy you want to buy, which changes every day.
+```java
+public int removeElement(int[] nums, int val) {
+    if(nums.length == 0) return 0;
+    int valid_size = 0;
+    for(int i = 0; i < nums.length; i++) {
+        if(nums[i] != val) {
+            nums[valid_size] = nums[i];
+            valid_size++;
+        }
+    }
+    return valid_size;
+}
+```
+## Contains Duplicate
 
-2. You start with no idea of the cheapest price yet, so you think of the highest possible price (something that's definitely more than any price you'll see) as your starting point.
+This problem asks if an array contains any duplicate elements. It's a common question that tests your understanding of data structures for efficient lookups.
 
-3. Each day, you check the toy's price. If it's cheaper than any price you've remembered before, you update your memory with this new lower price.
+### Approach:
 
-4. Now, you also think, "If I bought it at the cheapest price I remember, and sold it at today's price, how much money could I make?" You figure out this possible profit.
+- Use a `HashSet` to keep track of the elements we've seen so far.
+- Iterate through each element in the array.
+- For each element, check if it's already in our `HashSet`.
+  - If it is, we've found a duplicate, so we return `true`.
+  - If not, we add it to the `HashSet` and move on.
+- If we finish checking all elements without finding any duplicates, we return `false`.
 
-5. But you're smart; you don't settle yet. You keep updating this "best profit" if you find a day where the difference between that day's price and the cheapest price you remember is even more significant.
+This approach leverages the `HashSet`'s constant time complexity for both insertion and lookup, making it efficient for this task.
 
-6. In the end, after you've checked all the days, you know the best time to have bought and sold the toy to make the most money.
+### Code:
 
-### Let's visualize the approach with a sample array of prices: [7, 1, 5, 3, 6, 4]
-
-Starting Point:
-No transactions have occurred.
-minPrice = ∞, maxProfit = 0
-
-Day 1: Price = 7<br>
-minPrice = min(∞, 7) = 7<br>
-maxProfit = max(0, 7-7) = 0
-
-Day 2: Price = 1<br>
-minPrice = min(7, 1) = 1<br>
-maxProfit = max(0, 1-1) = 0
-
-Day 3: Price = 5<br>
-minPrice = min(1, 5) = 1<br>
-maxProfit = max(0, 5-1) = 4
-
-Day 4: Price = 3<br>
-minPrice = min(1, 3) = 1<br>
-maxProfit = max(4, 3-1) = 4
-
-Day 5: Price = 6<br>
-minPrice = min(1, 6) = 1<br>
-maxProfit = max(4, 6-1) = 5
-
-Day 6: Price = 4<br>
-minPrice = min(1, 4) = 1<br>
-maxProfit = max(5, 4-1) = 5
-
-Conclusion: The best time to have bought the stock was on Day 2 at a price of 1, and the best time to have sold it was on Day 5 at a price of 6, making a profit of 5.
+```java
+public boolean containsDuplicate(int[] nums) {
+    Set<Integer> uniques = new HashSet<>();
+    for (int num : nums) {
+        if (uniques.contains(num)) {
+            return true;
+        }
+        uniques.add(num);
+    }
+    return false;
+}
+```
 <!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day59/
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day60/
 
 ### Todays questions
 
-<!-- 1. [Plus One](https://leetcode.com/problems/plus-one/).
+1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/).
 
-2. [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+2. [Remove Element](https://leetcode.com/problems/remove-element/)
 
-3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/). -->
-1 . [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/).
+<!-- 3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/).
+1 . [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/). -->
 
 <!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
 
@@ -85,7 +87,6 @@ Conclusion: The best time to have bought the stock was on Day 2 at a price of 1,
 10. [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) -->
 
 <!-- 7. [Missing Number](https://leetcode.com/problems/missing-number/submissions/1186710654/) -->
-
 
 ## Projects
 
