@@ -2,74 +2,67 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 60: [11/03/2024]
+### Day 61: [12/03/2024]
 
 **Today's Progress**:
 
-## 1. Remove Element
+## Rearrange Array Elements by Signs
 
-The goal of this problem is to remove all instances of a specific value `val` from an array `nums`, in-place, and return the new length of the array after removal.
+This problem involves reordering an array so that positive and negative numbers are alternated. It's an interesting challenge that tests your ability to manipulate array indices and understand logical partitioning of data.
 
 ### Approach:
 
-- Initialize a pointer `valid_size` to keep track of the length of the array after removals.
-- Iterate through each element of the array `nums`.
-- If the current element is not equal to `val`, copy it to the `nums[valid_size]` and increment `valid_size`.
-- Return `valid_size` as the new length of the array.
+1. **Initialization**: 
+    - Create two separate arrays, `positive[]` and `negative[]`, to store positive and negative numbers, respectively. 
+    - Initialize counters for both arrays (`pCount` for positives and `nCount` for negatives).
+
+2. **Partitioning**: 
+    - Iterate through the input array `a`.
+    - If an element is negative, add it to the `negative` array and increment `nCount`.
+    - If an element is positive, add it to the `positive` array and increment `pCount`.
+
+3. **Merging**: 
+    - Initialize a new array `ans` to store the rearranged elements.
+    - Use an index `i` to fill `ans`, incrementing by 2 each time to ensure alternation.
+    - Alternate between adding an element from `positive` and `negative` to `ans` using an `index` variable that increments after each pair is added.
 
 ### Code:
 
 ```java
-public int removeElement(int[] nums, int val) {
-    if(nums.length == 0) return 0;
-    int valid_size = 0;
-    for(int i = 0; i < nums.length; i++) {
-        if(nums[i] != val) {
-            nums[valid_size] = nums[i];
-            valid_size++;
+public int[] rearrangeArray(int[] a) {
+    int n = a.length;
+    int[] positive = new int[n];
+    int[] negative = new int[n];
+
+    int nCount = 0, pCount = 0;
+    for(int i = 0; i < n; i++) {
+        if(a[i] < 0) {
+            negative[nCount++] = a[i];
+        } else {
+            positive[pCount++] = a[i];
         }
     }
-    return valid_size;
-}
-```
-## Contains Duplicate
 
-This problem asks if an array contains any duplicate elements. It's a common question that tests your understanding of data structures for efficient lookups.
-
-### Approach:
-
-- Use a `HashSet` to keep track of the elements we've seen so far.
-- Iterate through each element in the array.
-- For each element, check if it's already in our `HashSet`.
-  - If it is, we've found a duplicate, so we return `true`.
-  - If not, we add it to the `HashSet` and move on.
-- If we finish checking all elements without finding any duplicates, we return `false`.
-
-This approach leverages the `HashSet`'s constant time complexity for both insertion and lookup, making it efficient for this task.
-
-### Code:
-
-```java
-public boolean containsDuplicate(int[] nums) {
-    Set<Integer> uniques = new HashSet<>();
-    for (int num : nums) {
-        if (uniques.contains(num)) {
-            return true;
-        }
-        uniques.add(num);
+    int index = 0;
+    int[] ans = new int[n];
+    for(int i = 0; i < n; i += 2) {
+        ans[i] = positive[index];
+        if(i + 1 < n) ans[i + 1] = negative[index];
+        ++index;
     }
-    return false;
+
+    return ans;
 }
 ```
 <!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day60/
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day61/
 
 ### Todays questions
 
-1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/).
+1. [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/).
 
-2. [Remove Element](https://leetcode.com/problems/remove-element/)
+<!-- 2. [Remove Element](https://leetcode.com/problems/remove-element/) -->
 
 <!-- 3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/).
 1 . [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/). -->
