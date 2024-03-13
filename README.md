@@ -2,86 +2,64 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 61: [12/03/2024]
+### Day 62: [13/03/2024]
 
 **Today's Progress**:
 
-## Rearrange Array Elements by Signs
+# Find the Pivot Integer
 
-### Problem Statement:
-You are given a 0-indexed integer array `nums` of even length consisting of an equal number of positive and negative integers.
+## Problem Statement
+Given a positive integer `n`, find the pivot integer `x` such that:
+- The sum of all elements between 1 and `x` inclusively equals the sum of all elements between `x` and `n` inclusively.
+- Return the pivot integer `x`. If no such integer exists, return `-1`. It is guaranteed that there will be at most one pivot index for the given input.
 
-You should return the array of `nums` such that the array follows the given conditions:
-- Every consecutive pair of integers have opposite signs.
-- For all integers with the same sign, the order in which they were present in `nums` is preserved.
-- The rearranged array begins with a positive integer.
-
-**Return the modified array** after rearranging the elements to satisfy the aforementioned conditions.
-
-### Examples:
+## Examples
 
 **Example 1:**
-- Input: `nums = [3,1,-2,-5,2,-4]`
-- Output: `[3,-2,1,-5,2,-4]`
-- Explanation: The positive integers in `nums` are `[3,1,2]`. The negative integers are `[-2,-5,-4]`. The only possible way to rearrange them such that they satisfy all conditions is `[3,-2,1,-5,2,-4]`.
+- Input: `n = 8`
+- Output: `6`
+- Explanation: `6` is the pivot integer since: `1 + 2 + 3 + 4 + 5 + 6 = 6 + 7 + 8 = 21`.
 
 **Example 2:**
-- Input: `nums = [-1,1]`
-- Output: `[1,-1]`
-- Explanation: `1` is the only positive integer and `-1` the only negative integer in `nums`. So `nums` is rearranged to `[1,-1]`.
+- Input: `n = 1`
+- Output: `1`
+- Explanation: `1` is the pivot integer since: `1 = 1`.
 
+**Example 3:**
+- Input: `n = 4`
+- Output: `-1`
+- Explanation: It can be proved that no such integer exist.
 
-### Approach:
+## Approach
+To find the pivot integer, we iterate through the numbers from `1` to `n` and calculate the sum of numbers from `1` to `i` (inclusive) and the sum of numbers from `i` to `n` (inclusive). If we find a point where these sums are equal, `i` is the pivot integer. If no such point exists, we return `-1`.
 
-1. **Initialization**: 
-    - Create two separate arrays, `positive[]` and `negative[]`, to store positive and negative numbers, respectively. 
-    - Initialize counters for both arrays (`pCount` for positives and `nCount` for negatives).
+### Steps:
+1. Loop through `1` to `n` inclusive, calculating three sums for each iteration:
+    - The total sum of numbers from `1` to `n`, calculated once outside the loop as `sumOfN = (n * (n + 1)) / 2`.
+    - The sum of numbers from `1` to `i`, calculated as `sum1 = (i * (i + 1)) / 2`.
+    - The sum of numbers from `i` to `n`, which is `sumOfN - sum1 + i` (adjusting for the overlap at `i`).
+2. If `sum1` equals the adjusted sum from `i` to `n`, return `i` as the pivot integer.
+3. If the loop completes without finding an equal sum, return `-1`.
 
-2. **Partitioning**: 
-    - Iterate through the input array `a`.
-    - If an element is negative, add it to the `negative` array and increment `nCount`.
-    - If an element is positive, add it to the `positive` array and increment `pCount`.
-
-3. **Merging**: 
-    - Initialize a new array `ans` to store the rearranged elements.
-    - Use an index `i` to fill `ans`, incrementing by 2 each time to ensure alternation.
-    - Alternate between adding an element from `positive` and `negative` to `ans` using an `index` variable that increments after each pair is added.
-
-### Code:
-
+### Code
 ```java
-public int[] rearrangeArray(int[] a) {
-    int n = a.length;
-    int[] positive = new int[n];
-    int[] negative = new int[n];
-
-    int nCount = 0, pCount = 0;
-    for(int i = 0; i < n; i++) {
-        if(a[i] < 0) {
-            negative[nCount++] = a[i];
-        } else {
-            positive[pCount++] = a[i];
-        }
+public int pivotInteger(int n) {
+    for(int i = 1; i <= n; i++){
+        int sumOfN = (n * (n + 1)) / 2;
+        int sum1 = (i * (i + 1)) / 2;
+        int sum2 = sumOfN - sum1 + i;
+        if(sum1 == sum2) return i;
     }
-
-    int index = 0;
-    int[] ans = new int[n];
-    for(int i = 0; i < n; i += 2) {
-        ans[i] = positive[index];
-        if(i + 1 < n) ans[i + 1] = negative[index];
-        ++index;
-    }
-
-    return ans;
+    return -1;
 }
 ```
 <!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day61/
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day62/
 
 ### Todays questions
 
-1. [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/).
+1. [Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/?envType=daily-question&envId=2024-03-13).
 
 <!-- 2. [Remove Element](https://leetcode.com/problems/remove-element/) -->
 
