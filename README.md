@@ -2,64 +2,40 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 62: [13/03/2024]
+### Day 63: [14/03/2024]
 
 **Today's Progress**:
 
-# Find the Pivot Integer
+1. Largest Odd Number in String
 
-## Problem Statement
-Given a positive integer `n`, find the pivot integer `x` such that:
-- The sum of all elements between 1 and `x` inclusively equals the sum of all elements between `x` and `n` inclusively.
-- Return the pivot integer `x`. If no such integer exists, return `-1`. It is guaranteed that there will be at most one pivot index for the given input.
+You are given a string num, representing a large integer. Return the largest-valued odd integer (as a string) that is a non-empty substring of num, or an empty string "" if no odd integer exists.
 
-## Examples
+A substring is a contiguous sequence of characters within a string.
 
-**Example 1:**
-- Input: `n = 8`
-- Output: `6`
-- Explanation: `6` is the pivot integer since: `1 + 2 + 3 + 4 + 5 + 6 = 6 + 7 + 8 = 21`.
+ 
 
-**Example 2:**
-- Input: `n = 1`
-- Output: `1`
-- Explanation: `1` is the pivot integer since: `1 = 1`.
+Example 1:
 
-**Example 3:**
-- Input: `n = 4`
-- Output: `-1`
-- Explanation: It can be proved that no such integer exist.
+Input: num = "52"
+Output: "5"
+Explanation: The only non-empty substrings are "5", "2", and "52". "5" is the only odd number.
+Example 2:
 
-## Approach
-To find the pivot integer, we iterate through the numbers from `1` to `n` and calculate the sum of numbers from `1` to `i` (inclusive) and the sum of numbers from `i` to `n` (inclusive). If we find a point where these sums are equal, `i` is the pivot integer. If no such point exists, we return `-1`.
+Input: num = "4206"
+Output: ""
+Explanation: There are no odd numbers in "4206".
+Example 3:
 
-### Steps:
-1. Loop through `1` to `n` inclusive, calculating three sums for each iteration:
-    - The total sum of numbers from `1` to `n`, calculated once outside the loop as `sumOfN = (n * (n + 1)) / 2`.
-    - The sum of numbers from `1` to `i`, calculated as `sum1 = (i * (i + 1)) / 2`.
-    - The sum of numbers from `i` to `n`, which is `sumOfN - sum1 + i` (adjusting for the overlap at `i`).
-2. If `sum1` equals the adjusted sum from `i` to `n`, return `i` as the pivot integer.
-3. If the loop completes without finding an equal sum, return `-1`.
-
-### Code
-```java
-public int pivotInteger(int n) {
-    for(int i = 1; i <= n; i++){
-        int sumOfN = (n * (n + 1)) / 2;
-        int sum1 = (i * (i + 1)) / 2;
-        int sum2 = sumOfN - sum1 + i;
-        if(sum1 == sum2) return i;
-    }
-    return -1;
-}
-```
+Input: num = "35427"
+Output: "35427"
+Explanation: "35427" is already an odd number.
 <!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
 
-**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day62/
+**Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day63/
 
 ### Todays questions
 
-1. [Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer/?envType=daily-question&envId=2024-03-13).
+1. [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/).
 
 <!-- 2. [Remove Element](https://leetcode.com/problems/remove-element/) -->
 
