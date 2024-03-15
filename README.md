@@ -2,7 +2,7 @@
 
 Here's where I'll keep a daily log of my progress, including what I learned, what I worked on, and any reflections or insights I've gained.
 
-### Day 63: [14/03/2024]
+<!-- ### Day 63: [14/03/2024]
 
 **Today's Progress**:
 
@@ -29,36 +29,15 @@ Example 3:
 Input: num = "35427"
 Output: "35427"
 Explanation: "35427" is already an odd number.
-<!-- **Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations. -->
+**Thoughts**: Delving into these questions, I navigated through array manipulations, optimized for performance, and unlocked new strategies for dealing with matrix transformations.
 
 **Link to Todays Progress**: https://github.com/Gurupatel007/100Days-of-Code/blob/main/Day63/
 
 ### Todays questions
 
-1. [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/description/).
-
-<!-- 2. [Remove Element](https://leetcode.com/problems/remove-element/) -->
-
-<!-- 3. [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/description/).
-1 . [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/). -->
-
-<!-- 5. [Plus Minus](https://www.hackerrank.com/challenges/plus-minus)
-
-1. [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference) -->
-
-<!-- 7. [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum)
-
-8. [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets)
-
-9. [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum)
-
-10. [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) -->
-
-<!-- 7. [Missing Number](https://leetcode.com/problems/missing-number/submissions/1186710654/) -->
-
 ## Projects
 
-- **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://codepen.io/Guru-the-lessful/full/eYXrMLw].
+- **Music Player App**: A simple Music player app which plays the songs listed in it by accessing it from internet. - [https://codepen.io/Guru-the-lessful/full/eYXrMLw]. -->
 
 # 100 Days Of Code
 
