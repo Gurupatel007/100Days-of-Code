@@ -58,5 +58,3 @@ public int[] twoSum(int[] numbers, int target) {
 
 - **Time Complexity**: O(n log n), where n is the number of elements in the input array. For each element, a binary search is performed on the rest of the array.
 - **Space Complexity**: O(1), as the solution uses a constant amount of space.
-
-[]: # (END)
