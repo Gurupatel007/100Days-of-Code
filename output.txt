@@ -1,1 +1,2 @@
-Indices of the two numbers such that they add up to target: 1 2
+2
+3
