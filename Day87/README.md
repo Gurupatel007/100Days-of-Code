@@ -1,9 +1,4 @@
-# Coding Challenges: Numbers and Strings
-
-This document provides problem statements for three coding challenges focusing on numbers and strings. Each problem tests a unique concept ranging from mathematical calculations to pattern recognition in strings.
-
----
-
+# Questions - 7/4/2024
 ## 1. Happy Number
 
 ### Problem Statement

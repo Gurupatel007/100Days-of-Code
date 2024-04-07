@@ -1,4 +1,4 @@
-#Question - 6/4/2024
+# Questions - 6/4/2024
 
 ## 1. Contains Duplicate
 
