@@ -1,1 +1,1 @@
-true
+[[eat, tea, ate], [bat], [tan, nat]]
