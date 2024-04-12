@@ -1,4 +1,3 @@
-```markdown
 # 4Sum II
 
 ## Problem Statement
@@ -70,4 +69,3 @@ public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
 
 - **Time Complexity:** O(N^2), where N is the length of the input arrays. We iterate through all possible pairs from `nums1` and `nums2`, and then through all pairs from `nums3` and `nums4`.
 - **Space Complexity:** O(N^2), the space used by the HashMap to store the sums of pairs from `nums1` and `nums2`.
-```
